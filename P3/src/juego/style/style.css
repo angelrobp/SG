@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "pixelFont";
+    src:url("munro/Munro.ttf");
+}
+
+body {
+	color:white;
+  	font-family: 'pixelFont', Fallback, sans-serif !important; 
+}
+
+#info {
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:block;
+}
+
+#tablaPuntuacion {
+	font-size: 27px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:none;
+}
+
+#insertarNombre {
+	background-color: black;
+    font-size: 27px;
+    position: absolute;
+    top: 43%;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    color: white;
+    width: fit-content;
+    left: 40%;
+}
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
