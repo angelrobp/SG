@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<puntuaciones>
+	<partida>
+		<jugador>Jugador 1</jugador>
+		<puntuacion>300</puntuacion>
+	</partida>
+	<partida>
+		<jugador>Jugador 2</jugador>
+		<puntuacion>100</puntuacion>
+	</partida>
+	<partida>
+		<jugador>Jugador 3</jugador>
+		<puntuacion>3000</puntuacion>
+	</partida>
+	<partida>
+		<jugador>Jugador 4</jugador>
+		<puntuacion>400</puntuacion>
+	</partida>
+	<partida>
+		<jugador>Jugador 5</jugador>
+		<puntuacion>200</puntuacion>
+	</partida>
+</puntuaciones>
